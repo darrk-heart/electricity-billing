@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.paymethod">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="356.0" />
+      <Label text="Payment Method" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label text="Mobile Money" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="105.0" />
+      <Label layoutX="37.0" layoutY="115.0" text="Bank Account" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="152.0" />
+      <Polygon fill="DODGERBLUE" points="34.0, 32.0, 50.0, 40.0, 50.0, 23.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="51.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="54.0" stroke="BLACK" strokeType="INSIDE" width="356.0" AnchorPane.leftAnchor="-3.0" />
+      <Label prefHeight="30.0" prefWidth="194.0" text="ELECTRICITY BILLING SYSTEM" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="68.0" AnchorPane.rightAnchor="88.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <SplitPane dividerPositions="0.45979899497487436" orientation="VERTICAL" prefHeight="450.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+      <TextField fx:id="tfemail" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="251.0" promptText="Email" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="270.0" />
+      <Button fx:id="btnsignin" mnemonicParsing="false" text="Sign In" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="350.0" />
+      <Label fx:id="lblsignup" text="Sign up for an account" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="385.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblforgotpasswd" layoutX="111.0" layoutY="405.0" text="Forgotten Password ?" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="405.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="tfpassword" prefHeight="26.0" prefWidth="251.0" promptText="Password" AnchorPane.leftAnchor="46.0" AnchorPane.topAnchor="302.0" />
+   </children>
+</AnchorPane>
