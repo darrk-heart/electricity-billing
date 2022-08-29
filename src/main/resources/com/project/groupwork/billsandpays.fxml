@@ -5,7 +5,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.billsandpays">
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.billsandpayController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="76.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
       <Label text="Bills and Payment" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="33.0">
@@ -18,6 +18,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="2.0" layoutX="26.0" layoutY="135.0" stroke="#78d0ff" strokeType="INSIDE" width="320.0" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="190.0" />
       <Label layoutX="25.0" layoutY="168.0" text="Outstanding Debt" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="168.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="2.0" layoutX="27.0" layoutY="200.0" stroke="#78d0ff" strokeType="INSIDE" width="320.0" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="235.0" />
-      <Polygon fill="DODGERBLUE" points="35.0, 32.0, 50.0, 40.0, 50.0, 23.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Polygon fill="DODGERBLUE" points="35.0, 32.0, 50.0, 40.0, 50.0, 23.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="42.0" />
+      <Hyperlink fx:id="hypback" onAction="#hypback" text="." AnchorPane.leftAnchor="22.0" AnchorPane.topAnchor="33.0" />
    </children>
 </AnchorPane>
