@@ -6,25 +6,20 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Hyperlink;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-
-
-public class accountinfoController {
+public class billsandpaysController {
     @FXML
     private Hyperlink hypback;
 
     @FXML
-    private Hyperlink hyplogout;
+    private Hyperlink hyppaymethod;
 
     @FXML
-    private Hyperlink hyppersonalinfo;
+    private Hyperlink hypdebt;
 
 
 
@@ -44,17 +39,19 @@ public class accountinfoController {
         stage.setScene(scene);
         stage.show();}
 
-    public void hyplogout(ActionEvent event) throws IOException {
+    @FXML
+    public void hyppaymethod(ActionEvent event) throws IOException {
         //Button was clicked, do something...
-        root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        root = FXMLLoader.load(getClass().getResource("paymethod.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();}
 
-    public void hyppersonalinfo(ActionEvent event) throws IOException {
+    @FXML
+    public void hypdebt(ActionEvent event) throws IOException {
         //Button was clicked, do something...
-        root = FXMLLoader.load(getClass().getResource("personalinfo.fxml"));
+        root = FXMLLoader.load(getClass().getResource("debt.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

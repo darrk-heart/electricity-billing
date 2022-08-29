@@ -14,11 +14,9 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class billsandpayController {
+public class paymethodController {
     @FXML
     private Hyperlink hypback;
-
-
 
 
     private Stage stage;
@@ -30,7 +28,7 @@ public class billsandpayController {
     @FXML
     public void hypback(ActionEvent event) throws IOException {
         //Button was clicked, do something...
-        root = FXMLLoader.load(getClass().getResource("startpage.fxml"));
+        root = FXMLLoader.load(getClass().getResource("billsandpays.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

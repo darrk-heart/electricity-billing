@@ -5,16 +5,29 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.paymethod">
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.paymethodController">
    <children>
+      <Ellipse fill="WHITE" layoutX="178.0" layoutY="289.0" radiusX="87.0" radiusY="52.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Ellipse fill="WHITE" layoutX="178.0" layoutY="166.0" radiusX="87.0" radiusY="52.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Label layoutX="137.0" layoutY="137.0" prefWidth="84.0" text="MOMO" AnchorPane.leftAnchor="137.0" AnchorPane.topAnchor="137.0">
+         <font>
+            <Font name="Inconsolata Condensed Black" size="50.0" />
+         </font></Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="356.0" />
       <Label text="Payment Method" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="35.0">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Label>
-      <Label text="Mobile Money" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="105.0" />
-      <Label layoutX="37.0" layoutY="115.0" text="Bank Account" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="152.0" />
+      <Label layoutX="137.0" layoutY="265.0" text="BANK" AnchorPane.leftAnchor="137.0" AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="Inconsolata Condensed ExtraBold" size="50.0" />
+         </font></Label>
       <Polygon fill="DODGERBLUE" points="34.0, 32.0, 50.0, 40.0, 50.0, 23.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="51.0" />
+      <Hyperlink fx:id="hypback" onAction="#hypback" text="." AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="43.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="393.0" layoutX="40.0" layoutY="56.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="34.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="393.0" layoutX="50.0" layoutY="57.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="34.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="393.0" layoutX="275.0" layoutY="56.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="34.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="393.0" layoutX="285.0" layoutY="56.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="34.0" />
    </children>
 </AnchorPane>

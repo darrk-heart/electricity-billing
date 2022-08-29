@@ -14,7 +14,10 @@
          </font></Label>
       <SplitPane dividerPositions="0.45979899497487436" orientation="VERTICAL" prefHeight="450.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
         <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="174.0" layoutY="96.0" opacity="0.22" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+               </children></AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
                   <Hyperlink fx:id="hypsignup" layoutX="108.0" layoutY="144.0" onAction="#hypsignup" text="Sign up for an account" AnchorPane.leftAnchor="108.0">
@@ -27,6 +30,8 @@
                         <Font size="11.0" />
                      </font>
                   </Hyperlink>
+                  <Circle fill="DODGERBLUE" layoutX="2.0" layoutY="198.0" opacity="0.22" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                  <Circle fill="DODGERBLUE" layoutX="322.0" layoutY="65.0" opacity="0.22" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
                </children></AnchorPane>
         </items>
       </SplitPane>
