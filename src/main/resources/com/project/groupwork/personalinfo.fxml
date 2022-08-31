@@ -3,11 +3,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.personalinfoController">
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.personalinfoController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="63.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
-      <Label layoutX="54.0" text="Personal Information" AnchorPane.leftAnchor="95.0" AnchorPane.topAnchor="23.0" />
+      <Label layoutX="98.0" layoutY="26.0" text="Personal Information" AnchorPane.leftAnchor="98.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
       <Label text="Name:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="91.0" />
       <Label layoutX="18.0" layoutY="118.0" text="Meter ID:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="118.0" />
       <Label layoutX="28.0" layoutY="128.0" text="Email:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="144.0" />

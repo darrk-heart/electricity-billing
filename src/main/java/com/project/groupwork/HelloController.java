@@ -36,6 +36,14 @@ public class HelloController {
 
     @FXML
     public void btnsignin(ActionEvent event) throws IOException {
+        String email = tfemail.getText();
+        String password = tfpassword.getText();
+
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setContentText("Login Successfully");
+        alert.setHeaderText(null);
+        alert.showAndWait();
+
     root = FXMLLoader.load(getClass().getResource("startpage.fxml"));
     stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
     scene = new Scene(root);
