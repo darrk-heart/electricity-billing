@@ -21,6 +21,9 @@ public class billsandpaysController {
     @FXML
     private Hyperlink hypdebt;
 
+    @FXML
+    private Hyperlink hypmini;
+
 
 
 
@@ -52,6 +55,15 @@ public class billsandpaysController {
     public void hypdebt(ActionEvent event) throws IOException {
         //Button was clicked, do something...
         root = FXMLLoader.load(getClass().getResource("debt.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();}
+
+    @FXML
+    public void hypmini(ActionEvent event) throws IOException {
+        //Button was clicked, do something...
+        root = FXMLLoader.load(getClass().getResource("ministatement.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

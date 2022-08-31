@@ -62,6 +62,8 @@
                         <configuration>
                             <mainClass>com.project.groupwork/com.project.groupwork.HelloApplication</mainClass>
                             <launcher>app</launcher>
+                            <launcher>launch.sh</launcher>
+                            <compress>2</compress>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
                             <noManPages>true</noManPages>

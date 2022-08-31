@@ -36,8 +36,6 @@ public class HelloController {
 
     @FXML
     public void btnsignin(ActionEvent event) throws IOException {
-    //Button was clicked, do something...
-        //if
     root = FXMLLoader.load(getClass().getResource("startpage.fxml"));
     stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
     scene = new Scene(root);
@@ -45,7 +43,7 @@ public class HelloController {
     stage.show();}
 
     public void hypsignup(ActionEvent event) throws IOException {
-        //Button was clicked, do something...
+
         root = FXMLLoader.load(getClass().getResource("signup.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
@@ -53,7 +51,6 @@ public class HelloController {
         stage.show();
 }
     public void hyppasswd(ActionEvent event) throws IOException {
-        //Button was clicked, do something...
         root = FXMLLoader.load(getClass().getResource("forgetpasswd.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);

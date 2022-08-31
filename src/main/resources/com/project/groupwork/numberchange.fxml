@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.numberchangeController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <Label text="Change My Number" AnchorPane.leftAnchor="96.0" AnchorPane.topAnchor="28.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="102.0" text="To change number," AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="102.0" />
+      <Label layoutX="9.0" layoutY="141.0" text="Enter old number: " AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="141.0" />
+      <Label layoutX="9.0" layoutY="172.0" text="Enter new number: " AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="172.0" />
+      <Label layoutX="11.0" layoutY="201.0" text="Confirm number:" />
+      <TextField layoutX="164.0" layoutY="136.0" />
+      <TextField layoutX="163.0" layoutY="166.0" AnchorPane.leftAnchor="163.0" AnchorPane.topAnchor="166.0" />
+      <TextField layoutX="162.0" layoutY="197.0" AnchorPane.leftAnchor="162.0" AnchorPane.topAnchor="197.0" />
+      <Polygon fill="DODGERBLUE" points="38.0, 34.0, 50.0, 40.0, 50.0, 27.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="37.0" />
+      <Hyperlink fx:id="hypback" onAction="#hypback" text="." AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="28.0" />
+      <Circle fill="WHITE" layoutX="244.0" layoutY="357.0" opacity="0.1" radius="80.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Button fx:id="btnconfirm" layoutX="234.0" layoutY="235.0" mnemonicParsing="false" onAction="#btnconfirm" text="Confirm" />
+      <Circle fill="WHITE" layoutX="174.0" layoutY="398.0" opacity="0.1" radius="38.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="10.0" />
+   </children>
+</AnchorPane>

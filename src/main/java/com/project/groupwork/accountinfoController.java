@@ -26,6 +26,9 @@ public class accountinfoController {
     @FXML
     private Hyperlink hyppersonalinfo;
 
+    @FXML
+    private Hyperlink hypnumberchange;
+
 
 
 
@@ -55,6 +58,13 @@ public class accountinfoController {
     public void hyppersonalinfo(ActionEvent event) throws IOException {
         //Button was clicked, do something...
         root = FXMLLoader.load(getClass().getResource("personalinfo.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();}
+    public void hypnumberchange(ActionEvent event) throws IOException {
+        //Button was clicked, do something...
+        root = FXMLLoader.load(getClass().getResource("numberchange.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
