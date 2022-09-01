@@ -16,7 +16,7 @@ public class billsandpaysController {
     private Hyperlink hypback;
 
     @FXML
-    private Hyperlink hyppaymethod;
+    private Hyperlink hypmakepayment;
 
     @FXML
     private Hyperlink hypdebt;
@@ -43,7 +43,7 @@ public class billsandpaysController {
         stage.show();}
 
     @FXML
-    public void hyppaymethod(ActionEvent event) throws IOException {
+    public void hypmakepayment(ActionEvent event) throws IOException {
         //Button was clicked, do something...
         root = FXMLLoader.load(getClass().getResource("paymethod.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

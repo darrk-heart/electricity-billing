@@ -6,10 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Hyperlink;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -17,6 +14,8 @@ import java.io.IOException;
 public class paymethodController {
     @FXML
     private Hyperlink hypback;
+    private Hyperlink hypmomo;
+    private Hyperlink hypbank;
 
 
     private Stage stage;
@@ -33,4 +32,16 @@ public class paymethodController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();}
+
+    public void hypmomo(ActionEvent event) throws IOException {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setContentText("Momo Number is 0540000000");
+        alert.setHeaderText(null);
+        alert.showAndWait();}
+
+    public void hypbank(ActionEvent event) throws IOException {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setContentText("GHANA COMMERCIAL BANK only\nAccount Number is 062000000");
+        alert.setHeaderText(null);
+        alert.showAndWait();}
 }

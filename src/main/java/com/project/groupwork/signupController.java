@@ -6,10 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Hyperlink;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -17,6 +14,8 @@ import java.io.IOException;
 public class signupController {
     @FXML
     private Hyperlink hypback;
+    @FXML
+    private Button btnsignup;
 
 
 
@@ -35,4 +34,12 @@ public class signupController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();}
+
+    public void btnsignup(ActionEvent event) throws IOException {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setContentText("You have succesfully created an account with us!!!");
+        alert.setHeaderText(null);
+        alert.showAndWait();}
+
+
 }
