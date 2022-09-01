@@ -40,6 +40,4 @@ public class signupController {
         alert.setContentText("You have succesfully created an account with us!!!");
         alert.setHeaderText(null);
         alert.showAndWait();}
-
-
 }
