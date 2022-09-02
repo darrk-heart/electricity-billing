@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.personalinfoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="63.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <Label layoutX="98.0" layoutY="26.0" text="Personal Information" AnchorPane.leftAnchor="98.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label text="Name:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="91.0" />
+      <Label layoutX="18.0" layoutY="118.0" text="Meter ID:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="118.0" />
+      <Label layoutX="28.0" layoutY="128.0" text="Email:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="144.0" />
+      <Label layoutX="28.0" layoutY="154.0" text="Address:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="173.0" />
+      <Label layoutX="28.0" layoutY="183.0" text="Meter Type:" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="200.0" />
+      <Circle fill="DODGERBLUE" opacity="0.2" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="-100.0" AnchorPane.topAnchor="241.0" />
+      <Circle fill="DODGERBLUE" layoutX="101.0" layoutY="345.0" opacity="0.2" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="45.0" />
+      <Circle fill="DODGERBLUE" layoutX="251.0" layoutY="345.0" opacity="0.2" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="151.0" AnchorPane.topAnchor="245.0" />
+      <Circle fill="DODGERBLUE" layoutX="308.0" layoutY="346.0" opacity="0.2" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <TextField layoutX="123.0" prefHeight="26.0" prefWidth="200.0" AnchorPane.leftAnchor="123.0" AnchorPane.topAnchor="85.0" />
+      <TextField layoutX="123.0" layoutY="113.0" prefHeight="26.0" prefWidth="200.0" />
+      <TextField layoutX="123.0" layoutY="140.0" prefHeight="26.0" prefWidth="200.0" />
+      <TextField layoutX="123.0" layoutY="168.0" prefHeight="26.0" prefWidth="200.0" />
+      <TextField layoutX="124.0" layoutY="195.0" prefHeight="26.0" prefWidth="200.0" />
+      <Polygon fill="DODGERBLUE" points="38.0, 32.0, 50.0, 40.0, 50.0, 23.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="32.0" />
+      <Hyperlink fx:id="hypback" onAction="#hypback" text="." AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="23.0" />
+      <Label layoutX="19.0" layoutY="226.0" text="Location:" />
+      <TextField layoutX="124.0" layoutY="223.0" prefHeight="26.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

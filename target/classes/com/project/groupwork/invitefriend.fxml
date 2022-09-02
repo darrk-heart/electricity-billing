@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.inviteController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="74.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <Label text="Invite a Friend" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="33.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label prefHeight="17.0" prefWidth="278.0" text="You can get the source code of this projeect on " AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="105.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Polygon fill="DODGERBLUE" points="32.0, 31.0, 50.0, 40.0, 50.0, 22.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="49.0" />
+      <Label layoutX="17.0" layoutY="115.0" text="Github via the link;" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="182.0" text="You can also get the apk version through this link" AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="182.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="hypback" onAction="#hypback" text="." AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="42.0" />
+      <Hyperlink layoutX="4.0" layoutY="143.0" text="https://github.com/nineteen57/java_work">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+      <Ellipse fill="DODGERBLUE" layoutX="77.0" layoutY="391.0" opacity="0.1" radiusX="76.0" radiusY="49.0" rotate="24.2" stroke="WHITE" strokeType="INSIDE" />
+      <Ellipse fill="DODGERBLUE" layoutX="207.0" layoutY="392.0" opacity="0.1" radiusX="76.0" radiusY="49.0" rotate="20.0" stroke="WHITE" strokeType="INSIDE" AnchorPane.topAnchor="343.0">
+         <rotationAxis>
+            <Point3D z="-1.0" />
+         </rotationAxis>
+      </Ellipse>
+   </children>
+</AnchorPane>

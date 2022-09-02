@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.groupwork.ministatementController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="73.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <Label layoutX="115.0" layoutY="38.0" text="Mini Statement">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Polygon fill="DODGERBLUE" layoutX="-20.0" layoutY="20.0" points="38.0, 29.0, 50.0, 40.0, 50.0, 22.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Hyperlink fx:id="hypback" layoutX="19.0" layoutY="33.0" onAction="#hypback" text="." textFill="WHITE" />
+      <Circle fill="DODGERBLUE" layoutX="175.0" layoutY="256.0" opacity="0.1" radius="173.0" stroke="WHITE" strokeType="INSIDE" />
+      <Label layoutX="114.0" layoutY="345.0" text="No Transactions Yet" />
+   </children>
+</AnchorPane>
