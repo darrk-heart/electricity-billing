@@ -6,10 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Hyperlink;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -17,6 +14,10 @@ import java.io.IOException;
 public class forgotpasswdController {
     @FXML
     private Hyperlink hypback;
+    @FXML
+    private TextField tfemail;
+    @FXML
+    private Button btnforgotpasswd;
 
 
 
@@ -35,4 +36,13 @@ public class forgotpasswdController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();}
-}
+
+    @FXML
+    public void btnforgotpasswd(ActionEvent event) throws IOException {
+        String email = tfemail.getText();
+
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setContentText("Password Reset Link sent to your Mail. ");
+        alert.setHeaderText(null);
+        alert.showAndWait();
+}}

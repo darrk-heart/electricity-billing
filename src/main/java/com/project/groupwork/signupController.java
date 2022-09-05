@@ -37,7 +37,7 @@ public class signupController {
 
     public void btnsignup(ActionEvent event) throws IOException {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setContentText("You have succesfully created an account with us!!!");
+        alert.setContentText("Hurray!!! You have successfully created an account with us!");
         alert.setHeaderText(null);
         alert.showAndWait();}
 }
